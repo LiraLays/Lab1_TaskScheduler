@@ -1,0 +1,12 @@
+C:\Users\Holografic\Source\Repos\TaskScheduler\src\Lab1_TaskScheduler\bin\Debug\net8.0\Lab1_TaskScheduler.deps.json
+C:\Users\Holografic\Source\Repos\TaskScheduler\src\Lab1_TaskScheduler\bin\Debug\net8.0\Lab1_TaskScheduler.dll
+C:\Users\Holografic\Source\Repos\TaskScheduler\src\Lab1_TaskScheduler\bin\Debug\net8.0\Lab1_TaskScheduler.pdb
+C:\Users\Holografic\Source\Repos\TaskScheduler\src\Lab1_TaskScheduler\obj\Debug\net8.0\Lab1_TaskScheduler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Holografic\Source\Repos\TaskScheduler\src\Lab1_TaskScheduler\obj\Debug\net8.0\Lab1_TaskScheduler.AssemblyInfoInputs.cache
+C:\Users\Holografic\Source\Repos\TaskScheduler\src\Lab1_TaskScheduler\obj\Debug\net8.0\Lab1_TaskScheduler.AssemblyInfo.cs
+C:\Users\Holografic\Source\Repos\TaskScheduler\src\Lab1_TaskScheduler\obj\Debug\net8.0\Lab1_TaskScheduler.csproj.CoreCompileInputs.cache
+C:\Users\Holografic\Source\Repos\TaskScheduler\src\Lab1_TaskScheduler\obj\Debug\net8.0\Lab1_TaskScheduler.sourcelink.json
+C:\Users\Holografic\Source\Repos\TaskScheduler\src\Lab1_TaskScheduler\obj\Debug\net8.0\Lab1_TaskScheduler.dll
+C:\Users\Holografic\Source\Repos\TaskScheduler\src\Lab1_TaskScheduler\obj\Debug\net8.0\refint\Lab1_TaskScheduler.dll
+C:\Users\Holografic\Source\Repos\TaskScheduler\src\Lab1_TaskScheduler\obj\Debug\net8.0\Lab1_TaskScheduler.pdb
+C:\Users\Holografic\Source\Repos\TaskScheduler\src\Lab1_TaskScheduler\obj\Debug\net8.0\ref\Lab1_TaskScheduler.dll
