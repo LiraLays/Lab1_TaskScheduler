@@ -129,8 +129,9 @@
 						  Content="По Дедлайну"
 						  FontSize="16"
 						  FontWeight="Bold"
-						  Checked="FilterCheckBox_Changed"
-						  Unchecked="FilterCheckBox_Changed" />
+						  Checked="FilterCriteria_Changed"
+						  Unchecked="FilterCriteria_Changed" />
+
 			</StackPanel>
 			<StackPanel Height="33"
 						Orientation="Horizontal">
@@ -138,8 +139,8 @@
 						  Content="По Приоритету"
 						  FontSize="16"
 						  FontWeight="Bold"
-						  Checked="FilterCheckBox_Changed"
-						  Unchecked="FilterCheckBox_Changed" />
+						  Checked="FilterCriteria_Changed"
+						  Unchecked="FilterCriteria_Changed" />
 			</StackPanel>
 		</StackPanel>
 

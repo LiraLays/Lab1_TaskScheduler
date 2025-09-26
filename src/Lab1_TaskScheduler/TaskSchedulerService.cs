@@ -71,22 +71,32 @@ namespace Lab1_TaskScheduler.Services
 
 			if (byDeadline)
 			{
-				filteredTasks = filteredTasks.Where(t => t.Deadline.Date == DateTime.Today);
+				// Фильтруем задачи с дедлайном на сегодня или ранее (просроченные)
+				filteredTasks = filteredTasks.Where(t => t.Deadline.Date <= DateTime.Today && !t.IsCompleted);
 			}
 
 			if (byPriority)
 			{
-				filteredTasks = filteredTasks.Where(t => t.Priority >= 4); // Высокий приоритет
+				// Фильтруем задачи с высоким приоритетом (4-5)
+				filteredTasks = filteredTasks.Where(t => t.Priority >= 4 && !t.IsCompleted);
 			}
 
 			var result = filteredTasks.ToList();
 
 			// Post-condition
 			Debug.Assert(result != null, "Результат фильтрации не должен быть null");
-			Debug.Assert(!result.Any(t => byDeadline && t.Deadline.Date != DateTime.Today),
-				"При фильтрации по дедлайну все задачи должны иметь сегодняшний дедлайн");
-			Debug.Assert(!result.Any(t => byPriority && t.Priority < 4),
-				"При фильтрации по приоритету все задачи должны иметь высокий приоритет");
+
+			if (byDeadline)
+			{
+				Debug.Assert(!result.Any(t => t.Deadline.Date > DateTime.Today),
+					"При фильтрации по дедлайну все задачи должны иметь дедлайн не позже сегодняшнего дня");
+			}
+
+			if (byPriority)
+			{
+				Debug.Assert(!result.Any(t => t.Priority < 4),
+					"При фильтрации по приоритету все задачи должны иметь приоритет 4 или 5");
+			}
 
 			return result.AsReadOnly();
 		}
