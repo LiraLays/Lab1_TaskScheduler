@@ -5,7 +5,24 @@
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v8.0": {}
+    ".NETCoreApp,Version=v8.0": {
+      "CommunityToolkit.Diagnostics/8.2.1": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Diagnostics.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.1.1"
+          }
+        }
+      }
+    }
   },
-  "libraries": {}
+  "libraries": {
+    "CommunityToolkit.Diagnostics/8.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s8URwNarXZZLDtVf9B1AvdKMYg4tNFEuikjrMJYlwgAdSoQT0Y7W8mCYA2o2H+dKiCRVLJUXBdxflk/+QS9QBg==",
+      "path": "communitytoolkit.diagnostics/8.2.1",
+      "hashPath": "communitytoolkit.diagnostics.8.2.1.nupkg.sha512"
+    }
+  }
 }

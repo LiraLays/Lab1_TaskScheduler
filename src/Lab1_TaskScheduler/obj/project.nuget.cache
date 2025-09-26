@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Ey4hWDTCD24=",
+  "dgSpecHash": "fX3R+3gs0LA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Holografic\\Source\\Repos\\TaskScheduler\\src\\Lab1_TaskScheduler\\Lab1_TaskScheduler.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\TpyTeHb\\Yandex.Disk\\Univer\\3Semak\\Arina_Bahidjanovna_Lisnichuk\\Lab1_TaskScheduler\\src\\Lab1_TaskScheduler\\Lab1_TaskScheduler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TpyTeHb\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\TpyTeHb\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\TpyTeHb\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\TpyTeHb\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

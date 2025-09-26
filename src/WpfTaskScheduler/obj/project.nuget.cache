@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "lpht4fSILpM=",
+  "dgSpecHash": "FMzmr3f3NgU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Holografic\\Source\\Repos\\TaskScheduler\\src\\WpfTaskScheduler\\WpfTaskScheduler.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\TpyTeHb\\Yandex.Disk\\Univer\\3Semak\\Arina_Bahidjanovna_Lisnichuk\\Lab1_TaskScheduler\\src\\WpfTaskScheduler\\WpfTaskScheduler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TpyTeHb\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\TpyTeHb\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\TpyTeHb\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\TpyTeHb\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

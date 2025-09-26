@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36202.13 d17.14
+VisualStudioVersion = 17.14.36202.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1_TaskScheduler", "Lab1_TaskScheduler\Lab1_TaskScheduler.csproj", "{7DEC88A7-946B-42F2-B682-5DD4FD8CE9EC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTaskScheduler", "WpfTaskScheduler\WpfTaskScheduler.csproj", "{30BB234E-FD44-4CA3-9F62-270D9BD391E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskPlanner.Core", "TaskPlanner.Core\TaskPlanner.Core.csproj", "{D61019CD-CE8B-3781-3470-A9B7CEDC499E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{30BB234E-FD44-4CA3-9F62-270D9BD391E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30BB234E-FD44-4CA3-9F62-270D9BD391E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30BB234E-FD44-4CA3-9F62-270D9BD391E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61019CD-CE8B-3781-3470-A9B7CEDC499E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61019CD-CE8B-3781-3470-A9B7CEDC499E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61019CD-CE8B-3781-3470-A9B7CEDC499E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61019CD-CE8B-3781-3470-A9B7CEDC499E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
